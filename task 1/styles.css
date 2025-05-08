@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+  color: #333;
+}
+
+nav {
+  background-color: #343a40;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+marquee {
+  background: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+input, button {
+  padding: 12px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.recipe {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.recipe img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

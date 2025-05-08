@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About - Recipe Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      text-align: left;
+    }
+
+    @media (min-width: 768px) {
+      .about-content {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .about-text, .about-benefits {
+        width: 48%;
+      }
+    }
+
+    .about-section h2 {
+      margin-top: 0;
+      color: #28a745;
+    }
+
+    .about-section ul {
+      padding-left: 20px;
+    }
+
+    .about-section li {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="a.html">About</a>
+    <a href="c.html">Contact</a>
+  </nav>
+
+  <div class="container about-section">
+    <h1>About Recipe Finder</h1>
+
+    <div class="about-content">
+      <div class="about-text">
+        <h2>📌 What is Recipe Finder?</h2>
+        <p><strong>Recipe Finder</strong> is a simple and intuitive web application designed to help users find delicious meals using ingredients they already have at home.</p>
+        <p>Whether you're a beginner in the kitchen or a seasoned home cook, Recipe Finder makes it fun and fast to explore new dishes.</p>
+        <p>It pulls recipe data from <strong>TheMealDB API</strong>, a free, open-source meal database.</p>
+      </div>
+
+      <div class="about-benefits">
+        <h2>🌟 Features & Benefits</h2>
+        <ul>
+          <li>🔍 <strong>Quick Search:</strong> Enter any ingredient (like "chicken" or "rice") to find matching meals.</li>
+          <li>🎥 <strong>Video Recipes:</strong> Many meals include YouTube video guides for easy cooking.</li>
+          <li>📱 <strong>Responsive Design:</strong> Works on desktops, tablets, and phones.</li>
+          <li>🌎 <strong>Global Cuisine:</strong> Discover recipes from around the world — from sushi to spaghetti!</li>
+          <li>💡 <strong>Idea Generator:</strong> Stuck on what to cook? Just type an ingredient and get inspired!</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="about-section" style="margin-top: 40px;">
+      <h2>👨‍💻 Behind the Scenes</h2>
+      <p>This project was built using:</p>
+      <ul>
+        <li>🧾 <strong>HTML</strong> – to structure the web pages</li>
+        <li>🎨 <strong>CSS</strong> – to style and layout the pages</li>
+        <li>⚙️ <strong>JavaScript</strong> – to handle user interaction and fetch recipe data</li>
+        <li>🗂️ <strong>TheMealDB API</strong> – to provide real recipe content</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
